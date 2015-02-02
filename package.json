@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/hughsk/frame-debounce",
   "dependencies": {
-    "raf-component": "^1.1.2",
+    "raf": "^2.0.4",
     "sliced": "0.0.5"
   }
 }

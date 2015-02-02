@@ -1,12 +1,5 @@
 var slice = require('sliced')
-
-if (process.browser) {
-  var raf = require('raf-component')
-} else {
-  var raf = typeof setImmediate !== 'undefined'
-    ? setImmediate
-    : process.nextTick
-}
+var raf   = require('raf')
 
 module.exports = debounce
 
