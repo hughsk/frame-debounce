@@ -7,6 +7,10 @@ function debounce(fn, now) {
   var args = null
   var ctx = null
 
+  // I don't know why, but adding this
+  // comment seems to stop uglify from
+  // breaking this code.
+
   return debounced
 
   function debounced() {
